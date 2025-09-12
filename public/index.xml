@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on about-me</title>
+    <link>https://about.me/</link>
+    <description>Recent content in Home on about-me</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>ru-ru</language>
+    <atom:link href="https://about.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Обо мне</title>
+      <link>https://about.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://about.me/about/</guid>
+      <description>Краткая история о моем пути в мире машинного обучения и разработки</description>
+    </item>
+    <item>
+      <title>Резюме ML-разработчика</title>
+      <link>https://about.me/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://about.me/resume/</guid>
+      <description>Основная информация о моем опыте и навыках в области машинного обучения и разработки.</description>
+    </item>
+  </channel>
+</rss>
