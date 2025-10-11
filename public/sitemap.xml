@@ -2,14 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://okrikunof.github.io/web-portfolio/categories/</loc>
+    <loc>http://localhost:1313/web-portfolio/categories/</loc>
   </url><url>
-    <loc>https://okrikunof.github.io/web-portfolio/</loc>
+    <loc>http://localhost:1313/web-portfolio/</loc>
   </url><url>
-    <loc>https://okrikunof.github.io/web-portfolio/tags/</loc>
+    <loc>http://localhost:1313/web-portfolio/tags/</loc>
   </url><url>
-    <loc>https://okrikunof.github.io/web-portfolio/about/</loc>
+    <loc>http://localhost:1313/web-portfolio/about/</loc>
   </url><url>
-    <loc>https://okrikunof.github.io/web-portfolio/resume/</loc>
+    <loc>http://localhost:1313/web-portfolio/http-report/</loc>
+  </url><url>
+    <loc>http://localhost:1313/web-portfolio/resume/</loc>
   </url>
 </urlset>
