@@ -8,6 +8,36 @@
     <language>ru-ru</language>
     <atom:link href="http://localhost:1313/web-portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://localhost:1313/web-portfolio/git_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/web-portfolio/git_report/</guid>
+      <description>&lt;h1 id=&#34;отчёт-по-работе-с-gitkraken&#34;&gt;Отчёт по работе с GitKraken&lt;/h1&gt;
+&lt;h2 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Установка GitKraken&lt;/strong&gt; через &lt;code&gt;brew&lt;/code&gt;:
+&lt;img alt=&#34;Установка GitKraken через brew&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/web-portfolio/git_report/brew_install.jpg&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Авторизация&lt;/strong&gt; в аккаунте GitHub для синхронизации репозиториев.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-работа-с-репозиторием&#34;&gt;2. Работа с репозиторием&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Открыт &lt;strong&gt;приватный репозиторий&lt;/strong&gt; по предмету &lt;em&gt;«Системы компьютерной обработки изображений»&lt;/em&gt;:
+&lt;em&gt;На данном этапе в репозитории присутствует только файл &lt;code&gt;README.md&lt;/code&gt; и один коммит.&lt;/em&gt;
+&lt;img alt=&#34;Interface&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/web-portfolio/git_report/intefrace.jpg&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-добавление-новых-файлов&#34;&gt;3. Добавление новых файлов&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Созданы &lt;strong&gt;папка и Python-файл&lt;/strong&gt; в локальном репозитории.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Обнаружение изменений&lt;/strong&gt; в GitKraken:
+&lt;em&gt;Интерфейс автоматически отобразил новые незакоммиченные файлы.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-коммит-и-пуш-изменений&#34;&gt;4. Коммит и пуш изменений&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Проблема с коммитом через интерфейс&lt;/strong&gt;:
+Не удалось сразу разобраться, как закоммитить изменения через GitKraken, поэтому использовал консоль:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Обо мне</title>
       <link>http://localhost:1313/web-portfolio/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/web-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=web-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>about-okrikunof</title>
+<meta name="keywords" content="">
+<meta name="description" content="Отчёт по работе с GitKraken
+1. Установка и настройка
+
+Установка GitKraken через brew:
+
+Авторизация в аккаунте GitHub для синхронизации репозиториев.
+
+2. Работа с репозиторием
+
+Открыт приватный репозиторий по предмету «Системы компьютерной обработки изображений»:
+На данном этапе в репозитории присутствует только файл README.md и один коммит.
+
+
+3. Добавление новых файлов
+
+Созданы папка и Python-файл в локальном репозитории.
+Обнаружение изменений в GitKraken:
+Интерфейс автоматически отобразил новые незакоммиченные файлы.
+
+4. Коммит и пуш изменений
+
+
+Проблема с коммитом через интерфейс:
+Не удалось сразу разобраться, как закоммитить изменения через GitKraken, поэтому использовал консоль:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/web-portfolio/git_report/">
+<link crossorigin="anonymous" href="/web-portfolio/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/web-portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/web-portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/web-portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/web-portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/web-portfolio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/web-portfolio/git_report/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/web-portfolio/" accesskey="h" title="about-okrikunof (Alt + H)">about-okrikunof</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="отчёт-по-работе-с-gitkraken">Отчёт по работе с GitKraken<a hidden class="anchor" aria-hidden="true" href="#отчёт-по-работе-с-gitkraken">#</a></h1>
+<h2 id="1-установка-и-настройка">1. Установка и настройка<a hidden class="anchor" aria-hidden="true" href="#1-установка-и-настройка">#</a></h2>
+<ul>
+<li><strong>Установка GitKraken</strong> через <code>brew</code>:
+<img alt="Установка GitKraken через brew" loading="lazy" src="/web-portfolio/git_report/brew_install.jpg"></li>
+<li><strong>Авторизация</strong> в аккаунте GitHub для синхронизации репозиториев.</li>
+</ul>
+<h2 id="2-работа-с-репозиторием">2. Работа с репозиторием<a hidden class="anchor" aria-hidden="true" href="#2-работа-с-репозиторием">#</a></h2>
+<ul>
+<li>Открыт <strong>приватный репозиторий</strong> по предмету <em>«Системы компьютерной обработки изображений»</em>:
+<em>На данном этапе в репозитории присутствует только файл <code>README.md</code> и один коммит.</em>
+<img alt="Interface" loading="lazy" src="/web-portfolio/git_report/intefrace.jpg"></li>
+</ul>
+<h2 id="3-добавление-новых-файлов">3. Добавление новых файлов<a hidden class="anchor" aria-hidden="true" href="#3-добавление-новых-файлов">#</a></h2>
+<ul>
+<li>Созданы <strong>папка и Python-файл</strong> в локальном репозитории.</li>
+<li><strong>Обнаружение изменений</strong> в GitKraken:
+<em>Интерфейс автоматически отобразил новые незакоммиченные файлы.</em></li>
+</ul>
+<h2 id="4-коммит-и-пуш-изменений">4. Коммит и пуш изменений<a hidden class="anchor" aria-hidden="true" href="#4-коммит-и-пуш-изменений">#</a></h2>
+<ul>
+<li>
+<p><strong>Проблема с коммитом через интерфейс</strong>:
+Не удалось сразу разобраться, как закоммитить изменения через GitKraken, поэтому использовал консоль:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add monte_carlo_methods.py
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;add: create python file&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Отображение изменений</strong> в GitKraken:
+Появилось ответвление с иконкой ноутбука, сигнализирующее о локальных изменениях:
+<img alt="Локальные изменения в GitKraken" loading="lazy" src="/web-portfolio/git_report/commit.jpg"></p>
+</li>
+<li>
+<p><strong>Пуш изменений</strong> через интерфейс GitKraken:
+Нажатием кнопки <strong><code>Push</code></strong> изменения были отправлены на удалённый репозиторий:
+<img alt="Push изменений" loading="lazy" src="/web-portfolio/git_report/push.jpg"></p>
+</li>
+</ul>
+<h2 id="5-редактирование-файлов-и-просмотр-изменений">5. Редактирование файлов и просмотр изменений<a hidden class="anchor" aria-hidden="true" href="#5-редактирование-файлов-и-просмотр-изменений">#</a></h2>
+<ul>
+<li>Добавлен <strong>код в Python-файл</strong> через <code>Vim</code>.</li>
+<li><strong>Просмотр различий</strong> (<code>git diff</code>) в интерфейсе GitKraken:
+<img alt="Отображение git diff в GitKraken" loading="lazy" src="/web-portfolio/git_report/git_diff.jpg"></li>
+</ul>
+<h2 id="6-тестирование-git-pull">6. Тестирование <code>git pull</code><a hidden class="anchor" aria-hidden="true" href="#6-тестирование-git-pull">#</a></h2>
+<ul>
+<li>Изменён <strong>README.md</strong> напрямую через GitHub.</li>
+<li><strong>Пул изменений</strong> через интерфейс GitKraken:
+<img alt="Pull изменений из удалённого репозитория" loading="lazy" src="/web-portfolio/git_report/pull.jpg"></li>
+</ul>
+<h2 id="7-работа-с-ветками">7. Работа с ветками<a hidden class="anchor" aria-hidden="true" href="#7-работа-с-ветками">#</a></h2>
+<ul>
+<li>
+<p>Создана <strong>ветка <code>dev</code></strong> и добавлены изменения в Python-код.</p>
+</li>
+<li>
+<p><strong>Проблема переключения на <code>main</code></strong>:
+GitKraken заблокировал переключение из-за незакоммиченных изменений.
+<em>Решение:</em> Использование <code>git stash</code> для временного сохранения изменений:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git stash
+</span></span></code></pre></div><p><img alt="Git stash" loading="lazy" src="/web-portfolio/git_report/stash.jpg">
+После этого переключение на <code>main</code> стало возможным.</p>
+</li>
+<li>
+<p><strong>Слияние веток (<code>git merge</code>)</strong>:
+Не удалось выполнить через интерфейс, поэтому использовал консоль:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git merge dev
+</span></span></code></pre></div><p><img alt="Git merge" loading="lazy" src="/web-portfolio/git_report/merge.jpg">
+Результат слияния отобразился в GitKraken.</p>
+</li>
+</ul>
+<h2 id="выводы">Выводы<a hidden class="anchor" aria-hidden="true" href="#выводы">#</a></h2>
+<ul>
+<li><strong>GitKraken</strong> удобен для визуализации истории коммитов, веток и изменений.</li>
+<li><strong>Некоторые операции</strong> (например, <code>merge</code> или разрешение конфликтов) проще выполнять через консоль.</li>
+<li><strong>Интерфейс</strong> интуитивно понятен для базовых операций (<code>push</code>, <code>pull</code>, переключение веток).</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/web-portfolio/">about-okrikunof</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

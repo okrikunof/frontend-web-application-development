@@ -2,13 +2,13 @@
 
 ## 1. Установка и настройка
 - **Установка GitKraken** через `brew`:
-  ![Установка GitKraken через brew](screenshots/brew_install.jpg)
+  ![Установка GitKraken через brew](brew_install.jpg)
 - **Авторизация** в аккаунте GitHub для синхронизации репозиториев.
 
 ## 2. Работа с репозиторием
 - Открыт **приватный репозиторий** по предмету *«Системы компьютерной обработки изображений»*:
   *На данном этапе в репозитории присутствует только файл `README.md` и один коммит.*
-  ![Interface](screenshots/intefrace.jpg)
+  ![Interface](intefrace.jpg)
 
 ## 3. Добавление новых файлов
 - Созданы **папка и Python-файл** в локальном репозитории.
@@ -24,21 +24,21 @@
   ```
 - **Отображение изменений** в GitKraken:
   Появилось ответвление с иконкой ноутбука, сигнализирующее о локальных изменениях:
-  ![Локальные изменения в GitKraken](screenshots/commit.jpg)
+  ![Локальные изменения в GitKraken](commit.jpg)
 
 - **Пуш изменений** через интерфейс GitKraken:
   Нажатием кнопки **`Push`** изменения были отправлены на удалённый репозиторий:
-  ![Push изменений](screenshots/push.jpg)
+  ![Push изменений](push.jpg)
 
 ## 5. Редактирование файлов и просмотр изменений
 - Добавлен **код в Python-файл** через `Vim`.
 - **Просмотр различий** (`git diff`) в интерфейсе GitKraken:
-  ![Отображение git diff в GitKraken](screenshots/git_diff.jpg)
+  ![Отображение git diff в GitKraken](git_diff.jpg)
 
 ## 6. Тестирование `git pull`
 - Изменён **README.md** напрямую через GitHub.
 - **Пул изменений** через интерфейс GitKraken:
-  ![Pull изменений из удалённого репозитория](screenshots/pull.jpg)
+  ![Pull изменений из удалённого репозитория](pull.jpg)
 
 ## 7. Работа с ветками
 - Создана **ветка `dev`** и добавлены изменения в Python-код.
@@ -48,7 +48,7 @@
   ```bash
   git stash
   ```
-  ![Git stash](screenshots/stash.jpg)
+  ![Git stash](stash.jpg)
   После этого переключение на `main` стало возможным.
 
 - **Слияние веток (`git merge`)**:
@@ -56,7 +56,7 @@
   ```bash
   git merge dev
   ```
-  ![Git merge](screenshots/merge.jpg)
+  ![Git merge](merge.jpg)
   Результат слияния отобразился в GitKraken.
 
 ## Выводы
