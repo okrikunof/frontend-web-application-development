@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head>
-	<meta name="generator" content="Hugo 0.151.0"><script src="/web-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=web-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/web-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=web-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>about-okrikunof</title>
-
-<meta name="description" content="Главная страница.">
+<title>Отчет по работе с time в языке JavaScript | about-okrikunof</title>
+<meta name="keywords" content="">
+<meta name="description" content="Задание по JavaScript">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/web-portfolio/">
+<link rel="canonical" href="http://localhost:1313/web-portfolio/time_js/">
 <link crossorigin="anonymous" href="/web-portfolio/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/web-portfolio/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/web-portfolio/favicon-16x16.png">
@@ -19,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/web-portfolio/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/web-portfolio/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/web-portfolio/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/web-portfolio/time_js/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -103,20 +101,42 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<div class="post-content"><h2 id="добро-пожаловать">Добро пожаловать!<a hidden class="anchor" aria-hidden="true" href="#добро-пожаловать">#</a></h2>
-<p><img alt="Моя гифка" loading="lazy" src="luffy.gif"></p>
-<p>Здесь ты можешь узнать обо мне и моём опыте:</p>
-<ul>
-<li><strong><a href="about">Обо мне</a></strong> — кто я и чем увлекаюсь</li>
-<li><strong><a href="resume">Резюме</a></strong> — мои навыки и проекты</li>
-<li><strong><a href="git_report">Отчет по работе с Git</a></strong> — отчет по работе с Git</li>
-<li><strong><a href="http-report">Отчет по работе с HTTP</a></strong> — отчет по лабораторной работе с HTTP</li>
-<li><strong><a href="time_js">Отчет по работе с time в JavaScript</a></strong> — отчет по работе с time в JavaScript</li>
-</ul>
+<main class="main">
 
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Отчет по работе с time в языке JavaScript
+    </h1>
+    <div class="post-description">
+      Задание по JavaScript
+    </div>
+    <div class="post-meta">
 
 </div>
+  </header> 
+  <div class="post-content"><p>Вот такой код получился без использования IIFE</p>
+<pre tabindex="0"><code>console.time(&#39;a&#39;)
+
+let y = 2**14
+let x = Date.now()
+
+while (Date.now() - x &lt; y) {}
+
+console.timeEnd(&#39;a&#39;)
+</code></pre><p>Вывод в консоли</p>
+<pre tabindex="0"><code>❯ node time.js
+a: 16.384s
+</code></pre>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
