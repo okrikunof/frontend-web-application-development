@@ -1,0 +1,20 @@
+{
+  "name": "vite_bootstrap_project",
+  "version": "1.0.0",
+  "description": "Bootstrap + Luxon project with Vite",
+  "type": "module",
+  "author": "Oleg Krikunov",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "luxon": "^3.7.2"
+  }
+}

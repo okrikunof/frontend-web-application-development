@@ -2,3 +2,8 @@ baseURL = 'https://okrikunof.github.io/frontend-web-application-development/'
 languageCode = 'ru-ru'
 title = 'Frontend web-development reports'
 theme = 'PaperMod'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

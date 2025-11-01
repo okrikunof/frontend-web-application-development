@@ -12,4 +12,4 @@ description: "Главная страница"
 - **[Отчет по работе с Git](git_report)** — отчет по работе с Git
 - **[Отчет по работе с HTTP](http-report)** — отчет по лабораторной работе с HTTP
 - **[Отчет по работе с time в JavaScript](time_js)** — отчет по работе с time в JavaScript
-- **[Отчет по работе с Vite](bootstrap_luxon_vite)** — отчет по сборке проекта с Vite
+- **[Отчет по работе с Vite](bootstrap_luxon_vite)** — отчет по сборке проекта с Vite | <a href="/frontend-web-application-development/vite_app/index.html" target="_blank" rel="noopener">Открыть Vite приложение</a>
