@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home on about-okrikunof</title>
-    <link>http://localhost:1313/web-portfolio/</link>
-    <description>Recent content in Home on about-okrikunof</description>
+    <title>Home on Frontend web-development reports</title>
+    <link>https://okrikunof.github.io/frontend-web-application-development/</link>
+    <description>Recent content in Home on Frontend web-development reports</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>ru-ru</language>
-    <atom:link href="http://localhost:1313/web-portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://okrikunof.github.io/frontend-web-application-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/web-portfolio/git_report/</link>
+      <link>https://okrikunof.github.io/frontend-web-application-development/bootstrap_luxon_vite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-portfolio/git_report/</guid>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/bootstrap_luxon_vite/</guid>
+      <description>&lt;h1 id=&#34;отчёт-по-сборке-bootstrap-приложения-с-vite&#34;&gt;Отчёт по сборке Bootstrap-приложения с Vite&lt;/h1&gt;
+&lt;h2 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Создание проекта&lt;/strong&gt;:
+Создана новая директория &lt;code&gt;vite_bootstrap_project&lt;/code&gt; и инициализирован npm проект:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir vite_bootstrap_project
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd vite_bootstrap_project
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm init -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Установка зависимостей&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install --save-dev vite
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install bootstrap luxon
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-структура-проекта&#34;&gt;2. Структура проекта&lt;/h2&gt;
+&lt;p&gt;Проект имеет следующую структуру:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vite_bootstrap_project/
+├── index.html              # Главная HTML страница
+├── src/
+│   └── index.js            # Основной JavaScript файл
+├── vite.config.js         # Конфигурация Vite
+├── package.json           # Зависимости и скрипты
+├── .gitignore             # Игнорируемые файлы
+└── dist/ (после сборки)   # Готовый к деплою проект
+    ├── index.html
+    └── assets/
+        ├── index-*.css
+        └── index-*.js
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3-конфигурация&#34;&gt;3. Конфигурация&lt;/h2&gt;
+&lt;h3 id=&#34;packagejson&#34;&gt;package.json&lt;/h3&gt;
+&lt;p&gt;Добавлены скрипты для работы с Vite:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://okrikunof.github.io/frontend-web-application-development/git_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/git_report/</guid>
       <description>&lt;h1 id=&#34;отчёт-по-работе-с-gitkraken&#34;&gt;Отчёт по работе с GitKraken&lt;/h1&gt;
 &lt;h2 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Установка GitKraken&lt;/strong&gt; через &lt;code&gt;brew&lt;/code&gt;:
-&lt;img alt=&#34;Установка GitKraken через brew&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/web-portfolio/git_report/brew_install.jpg&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Установка GitKraken через brew&#34; loading=&#34;lazy&#34; src=&#34;https://okrikunof.github.io/frontend-web-application-development/git_report/brew_install.jpg&#34;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Авторизация&lt;/strong&gt; в аккаунте GitHub для синхронизации репозиториев.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-работа-с-репозиторием&#34;&gt;2. Работа с репозиторием&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Открыт &lt;strong&gt;приватный репозиторий&lt;/strong&gt; по предмету &lt;em&gt;«Системы компьютерной обработки изображений»&lt;/em&gt;:
 &lt;em&gt;На данном этапе в репозитории присутствует только файл &lt;code&gt;README.md&lt;/code&gt; и один коммит.&lt;/em&gt;
-&lt;img alt=&#34;Interface&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/web-portfolio/git_report/intefrace.jpg&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Interface&#34; loading=&#34;lazy&#34; src=&#34;https://okrikunof.github.io/frontend-web-application-development/git_report/intefrace.jpg&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;3-добавление-новых-файлов&#34;&gt;3. Добавление новых файлов&lt;/h2&gt;
 &lt;ul&gt;
@@ -39,30 +78,30 @@
     </item>
     <item>
       <title>Обо мне</title>
-      <link>http://localhost:1313/web-portfolio/about/</link>
+      <link>https://okrikunof.github.io/frontend-web-application-development/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-portfolio/about/</guid>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/about/</guid>
       <description>Краткая история о моем пути в мире машинного обучения и разработки</description>
     </item>
     <item>
       <title>Отчет по работе с HTTP</title>
-      <link>http://localhost:1313/web-portfolio/http-report/</link>
+      <link>https://okrikunof.github.io/frontend-web-application-development/http-report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-portfolio/http-report/</guid>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/http-report/</guid>
       <description>Здесь будут перечислены все этапы при выполнении лабораторной работы по работе с HTTP</description>
     </item>
     <item>
       <title>Отчет по работе с time в языке JavaScript</title>
-      <link>http://localhost:1313/web-portfolio/time_js/</link>
+      <link>https://okrikunof.github.io/frontend-web-application-development/time_js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-portfolio/time_js/</guid>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/time_js/</guid>
       <description>Задание по JavaScript</description>
     </item>
     <item>
       <title>Резюме ML-разработчика</title>
-      <link>http://localhost:1313/web-portfolio/resume/</link>
+      <link>https://okrikunof.github.io/frontend-web-application-development/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/web-portfolio/resume/</guid>
+      <guid>https://okrikunof.github.io/frontend-web-application-development/resume/</guid>
       <description>Основная информация о моем опыте и навыках в области машинного обучения и разработки.</description>
     </item>
   </channel>

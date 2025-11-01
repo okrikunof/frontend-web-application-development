@@ -2,20 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/web-portfolio/git_report/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/bootstrap_luxon_vite/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/categories/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/git_report/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/tags/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/about/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/http-report/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/time-js/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/http-report/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/resume/</loc>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/time_js/</loc>
+  </url><url>
+    <loc>https://okrikunof.github.io/frontend-web-application-development/resume/</loc>
   </url>
 </urlset>
