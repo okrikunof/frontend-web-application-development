@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on Frontend web-development reports</title>
-    <link>https://okrikunof.github.io/frontend-web-application-development/</link>
+    <link>http://localhost:1313/frontend-web-application-development/</link>
     <description>Recent content in Home on Frontend web-development reports</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>ru-ru</language>
-    <atom:link href="https://okrikunof.github.io/frontend-web-application-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frontend-web-application-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/bootstrap_luxon_vite/</link>
+      <link>http://localhost:1313/frontend-web-application-development/bootstrap_luxon_vite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/bootstrap_luxon_vite/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/bootstrap_luxon_vite/</guid>
       <description>&lt;h1 id=&#34;отчёт-по-сборке-bootstrap-приложения-с-vite&#34;&gt;Отчёт по сборке Bootstrap-приложения с Vite&lt;/h1&gt;
 &lt;h2 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h2&gt;
 &lt;ul&gt;
@@ -48,21 +48,21 @@
     </item>
     <item>
       <title></title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/git_report/</link>
+      <link>http://localhost:1313/frontend-web-application-development/git_report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/git_report/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/git_report/</guid>
       <description>&lt;h1 id=&#34;отчёт-по-работе-с-gitkraken&#34;&gt;Отчёт по работе с GitKraken&lt;/h1&gt;
 &lt;h2 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Установка GitKraken&lt;/strong&gt; через &lt;code&gt;brew&lt;/code&gt;:
-&lt;img alt=&#34;Установка GitKraken через brew&#34; loading=&#34;lazy&#34; src=&#34;https://okrikunof.github.io/frontend-web-application-development/git_report/brew_install.jpg&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Установка GitKraken через brew&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/frontend-web-application-development/git_report/brew_install.jpg&#34;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Авторизация&lt;/strong&gt; в аккаунте GitHub для синхронизации репозиториев.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-работа-с-репозиторием&#34;&gt;2. Работа с репозиторием&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Открыт &lt;strong&gt;приватный репозиторий&lt;/strong&gt; по предмету &lt;em&gt;«Системы компьютерной обработки изображений»&lt;/em&gt;:
 &lt;em&gt;На данном этапе в репозитории присутствует только файл &lt;code&gt;README.md&lt;/code&gt; и один коммит.&lt;/em&gt;
-&lt;img alt=&#34;Interface&#34; loading=&#34;lazy&#34; src=&#34;https://okrikunof.github.io/frontend-web-application-development/git_report/intefrace.jpg&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Interface&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/frontend-web-application-development/git_report/intefrace.jpg&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;3-добавление-новых-файлов&#34;&gt;3. Добавление новых файлов&lt;/h2&gt;
 &lt;ul&gt;
@@ -78,30 +78,30 @@
     </item>
     <item>
       <title>Обо мне</title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/about/</link>
+      <link>http://localhost:1313/frontend-web-application-development/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/about/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/about/</guid>
       <description>Краткая история о моем пути в мире машинного обучения и разработки</description>
     </item>
     <item>
       <title>Отчет по работе с HTTP</title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/http-report/</link>
+      <link>http://localhost:1313/frontend-web-application-development/http-report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/http-report/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/http-report/</guid>
       <description>Здесь будут перечислены все этапы при выполнении лабораторной работы по работе с HTTP</description>
     </item>
     <item>
       <title>Отчет по работе с time в языке JavaScript</title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/time_js/</link>
+      <link>http://localhost:1313/frontend-web-application-development/time_js/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/time_js/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/time_js/</guid>
       <description>Задание по JavaScript</description>
     </item>
     <item>
       <title>Резюме ML-разработчика</title>
-      <link>https://okrikunof.github.io/frontend-web-application-development/resume/</link>
+      <link>http://localhost:1313/frontend-web-application-development/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://okrikunof.github.io/frontend-web-application-development/resume/</guid>
+      <guid>http://localhost:1313/frontend-web-application-development/resume/</guid>
       <description>Основная информация о моем опыте и навыках в области машинного обучения и разработки.</description>
     </item>
   </channel>
