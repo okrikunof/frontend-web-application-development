@@ -106,19 +106,14 @@ dist/assets/index-DfOvSXQO.js    96.54 kB │ gzip: 29.96 kB
 | **JavaScript** | 96.54 KB | 29.96 KB |
 | **Итого** | ~329 KB | ~61.6 KB |
 
-### Размеры файлов на диске:
-- **index-BtmJYOxZ.css**: 226 KB
-- **index-DfOvSXQO.js**: 94 KB
-
 ## 6. Запуск проекта
 
 ### Режим разработки:
 ```bash
 npm run dev
 ```
-Приложение доступно по адресу: http://localhost:5173/
 
-### Сборка проекта для production:
+### Сборка проекта:
 ```bash
 npm run build
 ```
